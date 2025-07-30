@@ -16,4 +16,6 @@ app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 app.use('/api/users', userRoutes);
 
-export default app;
+app.listen(3000, () => {
+    console.log(`Server is running on port...`);
+});
