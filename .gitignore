@@ -1,1 +1,6 @@
+# Kredensial dan file sensitif
+.env
 serviceAccountKey.json
+
+# Dependensi
+/node_modules
